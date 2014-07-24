@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/working_out_slide_menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Working_out_slide_menu_title"/>
+    <item
+        android:id="@+id/new_plan_slide_menu"
+        android:showAsAction="always"
+        android:title="@string/new_plan_slide_menu_title">
+    </item>
+    <item
+        android:id="@+id/progress_slide_menu"
+        android:showAsAction="always"
+        android:title="@string/progress_slide_menu_title">
+    </item>
+    <item
+        android:id="@+id/share_slide_menu"
+        android:title="@string/share_this_page_slide_menu_title">
+    </item>
+    <item
+        android:id="@+id/export_slide_menu"
+        android:title="@string/export_plan_slide_menu_title">
+    </item>
+    <item
+        android:id="@+id/import_slide_menu"
+        android:title="@string/import_plan_slide_menu_title">
+    </item>
+    <item
+        android:id="@+id/about_slide_menu"
+        android:title="@string/about_slide_menu_title">
+    </item>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="progress_red">#FC1468</color>
+    <color name="progress_green">#CDFD70</color>
+    <color name="progress_blue">#CDFFFF</color>
+    <color name="progress_champagne">#FECB9C</color>
+
+</resources>

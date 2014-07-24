@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Workout Progress Keeper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start_working_out">Start working-out</string>
+    <string name="progress">Progress</string>
+    <string name="Plans">Plans</string>
+    <string name="Working_out_activity_title">Working-out</string>
+    <string name="progress_activity_title">Progress</string>
+    <string name="Plans_activity_title">Plans</string>
+    <string name="monthly_plans_detial_activity_title">Monthly Plans Detail</string>
+    <string name="weekly_plans_detial_activity_title">Weekly Plans Detail</string>
+    <string name="progress_format">%1$d\%</string>
+    <string name="today_s_progress">Today\'s Progress</string>
+    <string name="weekly_plans_detail">Weekly Plans Detail</string>
+    <string name="this_week_s_progress">This Week\'s Progress   %1$d\%</string>
+    <string name="this_month_s_progress">This Month\'s Progress %1$d\%</string>
+    <string name="data_analysises_text">Some data Andlysises</string>
+    <string name="set_format">%1$s %1$d lbs %1$d reps/set for %1$d sets</string>
+    <string name="done_button">DONE</string>
+    <string name="share_button">Share</string>
+    <string name="make_new_set_dialog_text">Make a new set here</string>
+    <string name="share_this_page_dialog_text">Shere this page</string>
+    <string name="export_plan_dialog_text">Export plans</string>
+    <string name="import_dialog_text">Import plans</string>
+    <string name="about_dialog_text">About</string>
+    <string name="Back">Back</string>
+    <string name="Working_out_slide_menu_title">Working_out</string>
+    <string name="new_plan_slide_menu_title">New Plan</string>
+    <string name="progress_slide_menu_title">Progress</string>
+    <string name="share_this_page_slide_menu_title">Share this page</string>
+    <string name="export_plan_slide_menu_title">Export plan</string>
+    <string name="import_plan_slide_menu_title">Import plan</string>
+    <string name="about_slide_menu_title">About</string>
+    <string name="add_new_plan_button">+</string>
+    <string name="title_activity_add_new_plan">AddNewPlanActivity</string>
+    <string name="title_activity_daily_plan">DailyPlanActivity</string>
+    <string name="title_activity_monthly_plans_detial">MonthlyPlansDetialActivity</string>
+    <string name="title_activity_plans">PlansActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_weekly_plans_detial">WeeklyPlansDetialActivity</string>
+    <string name="title_activity_share_this_page">ShareThisPageActivity</string>
+    <string name="title_activity_working_out">WorkingOutActivity</string>
+
+</resources>

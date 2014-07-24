@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/progress_todays_progress_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="@string/today_s_progress" >
+
+            <TextView
+                android:id="@+id/todays_progress_done"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.05"
+                android:background="@color/progress_red" />
+
+            <TextView
+                android:id="@+id/todays_progress_not_done"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.06"
+                android:background="@color/progress_blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/progress_this_weeks_progress_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="@string/this_week_s_progress" >
+
+            <TextView
+                android:id="@+id/this_weeks_progress_done"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:background="@color/progress_red" />
+
+            <TextView
+                android:id="@+id/this_weeks_progress_not_done"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.06"
+                android:background="@color/progress_blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/progress_this_months_progress_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="@string/this_month_s_progress" >
+
+            <TextView
+                android:id="@+id/this_months_progress_done"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.08"
+                android:background="@color/progress_red" />
+
+            <TextView
+                android:id="@+id/this_months_progress_not_done"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.06"
+                android:background="@color/progress_blue" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/progress_data_analysises_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/data_analysises_text" />
+
+</RelativeLayout>

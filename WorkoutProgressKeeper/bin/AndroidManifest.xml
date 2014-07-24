@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.rosehulman.wuj_liuf.workoutprogresskeeper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    s
+        <activity
+            android:name=".AddNewPlanActivity"
+            android:label="@string/title_activity_add_new_plan" >
+        </activity>
+        <activity
+            android:name=".DailyPlanActivity"
+            android:label="@string/title_activity_daily_plan" >
+        </activity>
+        <activity
+            android:name=".MonthlyPlansDetialActivity"
+            android:label="@string/title_activity_monthly_plans_detial" >
+        </activity>
+        <activity
+            android:name=".PlansActivity"
+            android:label="@string/title_activity_plans" >
+        </activity>
+        <activity
+            android:name=".ProgressActivity"
+            android:label="@string/title_activity_progress" >
+        </activity>
+        <activity
+            android:name=".WeeklyPlansDetialActivity"
+            android:label="@string/title_activity_weekly_plans_detial" >
+        </activity>
+        <activity
+            android:name=".ShareThisPageActivity"
+            android:label="@string/title_activity_share_this_page" >
+        </activity>
+        <activity
+            android:name=".WorkingOutActivity"
+            android:label="@string/title_activity_working_out" >
+        </activity>
+    </application>
+
+</manifest>
